@@ -4,7 +4,7 @@ const ingredients = ["Eau distillée de jujubier (Sidr Water)", "Glycérine", "E
 const steps = ["Lavez et séchez légèrement vos cheveux avec une serviette.", "Agitez le spray avant utilisation.", "Vaporisez directement sur le cuir chevelu, en ciblant les zones concernées.", "Massez doucement le cuir chevelu.", "Ne rincez pas. Coiffez comme d’habitude ou laissez sécher à l’air."];
 
 function Bottle() {
-  return <div className="bottle-wrap"><div className="halo"/><div className="bottle"><div className="pump"><i/></div><div className="neck"/><div className="label"><div className="leafmark">✦</div><div className="brand">ÉLIXOR</div><div className="subbrand">HAIR CARE SPRAY</div><div className="goldline"/><div className="spray">SPRAY</div><div className="anti">ANTI-CHUTE</div><div className="hair">CHEVEUX</div><div className="follicle">♧</div><div className="benefits"><span>RÉDUIT<br/>LA CHUTE</span><span>STIMULE<br/>LA ROUTINE</span><span>RENFORCE<br/>LES CHEVEUX</span></div><div className="botanics">✺　❋　✺</div><div className="volume">100 ml</div></div></div><div className="bottle-shadow"/></div>;
+  return <div className="bottle-wrap official-bottle"><div className="halo"/><img src="data:image/webp;base64,UklGRpJpAABXRUJQVlA4IIZpAABwJAKdASroA+gDPmEwlEgkIq..." alt="ÉLIXOR Hair Care Spray, flacon officiel 100 ml" /></div>;
 }
 
 export default function App() {
