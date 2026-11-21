@@ -13,3 +13,5 @@ Le formulaire est une prévisualisation et ne transmet pas encore les commandes.
 ## Cloudflare Pages
 - Build command : `npm run build`
 - Output directory : `dist`
+
+Deployment: Cloudflare Pages (`elixor.pages.dev`).
